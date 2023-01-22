@@ -1,0 +1,46 @@
+body {
+  width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: gray;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  margin-right: 8px;
+}
+
+button {
+  margin: 0 4px;
+  cursor: pointer;
+  height: 24px;
+  border: none;
+  border-radius: 8px;
+}
+
+
+.input-area {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.list-area {
+  background-color: aqua;
+  text-align: center;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 8px;
+  min-height: 360px;
+}
+
+.completed >  * {
+  text-decoration: line-through;
+  opacity: 0.8;
+}
