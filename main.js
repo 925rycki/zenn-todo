@@ -16,7 +16,7 @@ const onClickAdd = () => {
   const completeButton = document.createElement("button");
   completeButton.innerText = "完了";
 
-  // 押下されたターゲットにcompletedクラスを付与する
+  // 押下されたターゲットにcompletedクラスを付け外しする
   completeButton.addEventListener("click", () => {
     const completeTarget = completeButton.parentNode;
     completeTarget.classList.toggle("completed");
